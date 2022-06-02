@@ -1,0 +1,290 @@
+@font-face {
+    font-family: 'LatoBlackItalic';
+      src: url('LatoBlackItalic.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'LatoLightItalic';
+     src: url('./LatoLightItalic.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'LatoLight';
+    src: url('LatoLight.ttf') format('truetype');
+}
+body {
+    width: 600px;
+    margin: auto;
+    background-color: white;
+}
+button {
+    cursor: pointer;
+    padding: 0px;
+    border:none;
+    background:none;
+}
+a {
+	color: #0075b3;
+	text-decoration: underline;
+}
+a:hover {
+    color: #0075b3;
+}
+a:visited {
+	color: #0075b3;
+}
+a:active {
+	color: #0075b3;
+}
+.buty_run_support_kalenji {
+    display:block;
+}
+.lewa_strona_kup_buty {
+    float:left;
+  display:block;
+  margin-top:0px;
+}
+.kup_buty_kalenji {
+    float:left;
+  display:block;
+  margin-top:0px;
+}
+.prawa_strona_kup_buty {
+    float:right;
+    display:block;
+    margin-top:0px;
+}
+.lepsza_amortyzacja {
+    margin-top: -4px;
+    display:block;
+}
+#trening{
+    color:#0075b3;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 10%;
+    font-size:20px;
+    margin-top:65px;
+    font-family: "LatoBlackItalic";
+}
+#sprawdzone_na_trasie{
+    color:#3c3e3e;
+    font-family: "LatoLightItalic";
+    text-align: center;
+    line-height: 30%;
+    font-size:20px;
+    margin-top:40px;
+    margin-bottom:60px;
+    font-weight:bold;
+}
+.container {
+    position: relative;
+    text-align: center;
+    color: #131313;
+}
+.lewa_gora_sprawdz_buty {
+    float:left;
+    display:block;
+    margin-top:-4px; 
+}
+.button_sprawdz {
+    float:left;
+    display:block;
+    margin-top:-4px;
+}
+.gora_prawa_sprawdz_buty {
+   float:right;
+   display:block;
+   margin-top:-4px;
+}
+.dol_lewa_sprawdz {
+    float:left;
+    display:block;
+    margin-top:-4px;
+}
+.dol_sprawdz {
+    float:left;
+    display:block;
+    margin-top: -4px; 
+}
+.dol_prawa_sprawdz {
+    float:right;
+    display:block;
+    margin-top:-4px;
+}
+#EVA {
+    position:absolute;
+    top:50px;
+    left:50px;
+    font-family:"LatoLightItalic";
+    font-weight:bold;
+    line-height: 30%;
+    font-size:20px;
+    text-align: left;
+    color:#131313;
+}
+#szwy {
+    position:absolute;
+    top: 110px;
+    right:30px;
+    font-family:"LatoLightItalic";
+    font-weight:bold;
+    line-height: 30%;
+    font-size:20px;
+    text-align: left;
+    color:#131313;
+}
+#Circular_System {
+    position:absolute;
+    bottom: 25px;
+    left: 50px;
+    font-family:"LatoLightItalic";
+    font-weight:bold;
+    line-height: 30%;
+    font-size:20px;
+    text-align: left;
+    color:#131313;
+}
+.kobieta_bieg{
+    display:block;
+}
+.lewa_gora_sprawdz_2{
+    float:left;
+    display:block;
+}
+.button_sprawdz {
+    float:left;
+    display:block;
+}
+.gora_prawa_sprawdz_2 {
+    float:right;
+    display:block;
+}
+.dol_lewa_2{
+    float:left;
+    display:block;
+    margin-top:-7px;
+}
+.dol_sprawdz_2{
+    display:block;
+    margin-top:-7px;
+}
+.dol_prawa_2{
+    float:right;
+    display:block;
+    margin-top:-70px;
+}
+#sprawdz{
+    color:#0075b3;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 20%;
+    font-size:30px;
+    margin-top:40px;
+    margin-bottom:30px;
+    font-family: "LatoBlackItalic";
+}
+.row{
+    display:flex;
+    justify-content: center;
+}
+.roww::after{
+    content:"";
+    clear:both;
+    display:table;
+}
+.rowww{
+    display:flex;
+    justify-content: center;
+}
+.column {
+    flex: 50%;
+    padding-left: 17px;
+    padding-right:17px;
+    padding-bottom:0px;
+    padding-top:17px;
+}
+.columnn {
+    float:left;
+    width:33,33%;
+    padding:0px;
+    margin-top:15px;
+    margin-bottom:20px;
+}
+.columnnn {
+    flex: 33,33%;
+}
+.rybaczki_obrazek{
+    display:block;
+}
+.kup_rybaczki{
+    display:block;
+    float:left;
+}
+.prawa_button_rybaczki{
+    margin-left: -4px;
+}
+.dol_button_rybaczki{
+    display:block;
+    margin-top:-4px;
+}
+.obrazek_koszulka{
+    display:block;
+    float:right;
+}
+.button_kup_koszulka{
+    display:block;
+    margin-right:-4px;
+    float:right; 
+}
+.prawa_button_koszulka{
+    display:block;
+    float:right;
+}
+.dol_button_koszulka{
+    display:block;
+    float:right;
+    margin-top:-4.5px;
+}
+.motywacja{
+    background-color: #F2F2F2;
+    background-position: center;
+    margin-top:30px;
+    margin-left: 17px;
+    margin-right: 17px;
+    padding-top:20px;
+    font-family: "LatoBlackItalic";
+}
+#sport{
+    color:#0075b3;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 20%;
+    font-size:30px;
+    margin-top:35px;
+    margin-bottom:40px;
+}
+#cwiczenia{
+    color:#313131;
+    text-align:center;
+    line-height:20%;
+    font-size:26px;
+    margin-top:40px;
+    margin-bottom:40px;
+}
+.sprawdz_motywacja{
+    margin-left:155px;
+    margin-bottom:50px;
+    margin-top:10px;
+}
+#whole_pic_button {
+    margin-left:17px;
+}
+#newsletter{
+    font-family: "LatoLight";
+    font-size:13px;
+    color:#313131;
+    text-align: center;
+    line-height: 30%;
+    margin-top:30px;
+    margin-bottom:40px;
+    font-weight:bold;
+}
